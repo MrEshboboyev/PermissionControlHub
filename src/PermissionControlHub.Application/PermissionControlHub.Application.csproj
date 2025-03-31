@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<PackageReference Include="BCrypt.Net-Next" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\PermissionControlHub.Domain\PermissionControlHub.Domain.csproj" />
+	</ItemGroup>
+</Project>
